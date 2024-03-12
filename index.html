@@ -1,80 +1,113 @@
 <!-- Este é um comentário em HTML. -->
-<!DOCTYPE HTML> <!-- Esse é o DTD do HTML5. -->
+<!DOCTYPE html>
+<!-- Esse é o DTD do HTML5. -->
 <!-- O DTD é o document type definition, ele diz ao BROWSER a versão do HTML que deve ser carregada. -->
 
 <html lang="pt-br">
-	<head>
-		<!--Tags de meta-dados, filhas de head. meta -->
-		<meta charset="UTF-8"/>
-		<!-- A viewport faz parte da responsividade da página. -->
-		<meta name="viewport" content="width:device-width, initial-scale=1.0"/>
-		<title>Página Básica</title>
-	</head>
-	<!-- segundo filho do html. body -->
-	<body>
-		
-		<div class="container">
+  <head>
+    <!--Tags de meta-dados, filhas de head. meta -->
+    <meta charset="UTF-8" />
+    <!-- A viewport faz parte da responsividade da página. -->
+    <meta name="viewport" content="width:device-width, initial-scale=1.0" />
+    <title>Página Básica</title>
+  </head>
+  <!-- segundo filho do html. body -->
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <h1 style="text-align: center; border: solid 2px #ff0000">
+          Minha Página
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#"> Ajuda </a></li>
+            <li><a href="#"> Sobre </a></li>
+            <li><a href="#"> Contato </a></li>
+          </ul>
+        </nav>
+      </header>
 
-			<header class="cabecalho">
-				<h1 style="text-align: center;border:solid 2px #ff0000;">Minha Página</h1>
-				<nav>
-					<ul>
-						<li> <a href="#">Ajuda</a> </li>
-						<li> <a href="#">Sobre</a> </li>
-						<li> <a href="#">Contato</a> </li>
-					</ul>
-				</nav>
-			</header>
+      <section class="conteudo">
+        <div>
+          <h2>Ajuda</h2>
+          <p>
+            <span>AJUDA</span> - Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Ipsa culpa exercitationem quod nemo unde,
+            explicabo ut minus tempore sed facere labore officia et sint rerum
+            odio repudiandae, quis voluptatum eligendi quia, assumenda iste
+            facilis nesciunt. In, dolores! Veniam nesciunt blanditiis itaque
+            voluptates molestiae voluptatem officiis incidunt adipisci aliquam
+            commodi esse est, maiores numquam nobis sapiente. Nostrum, dicta!
+            Deleniti nostrum praesentium eligendi, dolor unde delectus molestiae
+            vero dolorem temporibus obcaecati id, nisi rem quo vel illo,
+            voluptas blanditiis earum. Animi commodi iste, nostrum eos officia
+            quidem dolorem ex, earum est fugiat ratione soluta accusantium unde
+            sequi nobis? Possimus excepturi voluptates reprehenderit!
+          </p>
+          <a href="#">Mais...</a>
+        </div>
+        <div>
+          <h2>Sobre</h2>
+          <p>
+            <span>SOBRE</span> - Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Ipsa culpa exercitationem quod nemo unde,
+            explicabo ut minus tempore sed facere labore officia et sint rerum
+            odio repudiandae, quis voluptatum eligendi quia, assumenda iste
+            facilis nesciunt. In, dolores! Veniam nesciunt blanditiis itaque
+            voluptates molestiae voluptatem officiis incidunt adipisci aliquam
+            commodi esse est, maiores numquam nobis sapiente. Nostrum, dicta!
+            Deleniti nostrum praesentium eligendi, dolor unde delectus molestiae
+            vero dolorem temporibus obcaecati id, nisi rem quo vel illo,
+            voluptas blanditiis earum. Animi commodi iste, nostrum eos officia
+            quidem dolorem ex, earum est fugiat ratione soluta accusantium unde
+            sequi nobis? Possimus excepturi voluptates reprehenderit!
+          </p>
+          <a href="#">Mais...</a>
+        </div>
+        <div>
+          <h2>Contato</h2>
+          <form>
+            <fieldset>
+              <legend>Contato</legend>
+              <div>
+                <label for="idEmail">Email</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+              <div>
+                <label for="idTel">Telefone</label>
+                <input
+                  type="tel"
+                  name="txtTel"
+                  id="idTel"
+                  placeholder="Digite seu Telefone"
+                />
+              </div>
+              <div>
+                <button type="button">Enviar</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
 
-			<section class="conteudo">
-				<div>
-					<h2>Ajuda</h2>
-					<p><span>AJUDA</span> - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa culpa exercitationem quod nemo unde, explicabo ut minus tempore sed facere labore officia et sint rerum odio repudiandae, quis voluptatum eligendi quia, assumenda iste facilis nesciunt. In, dolores! Veniam nesciunt blanditiis itaque voluptates molestiae voluptatem officiis incidunt adipisci aliquam commodi esse est, maiores numquam nobis sapiente. Nostrum, dicta! Deleniti nostrum praesentium eligendi, dolor unde delectus molestiae vero dolorem temporibus obcaecati id, nisi rem quo vel illo, voluptas blanditiis earum. Animi commodi iste, nostrum eos officia quidem dolorem ex, earum est fugiat ratione soluta accusantium unde sequi nobis? Possimus excepturi voluptates reprehenderit!</p>
-					<a href="#">Mais...</a>
-				</div>
-				<div>
-					<h2>Sobre</h2>
-					<p><span>SOBRE</span> - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa culpa exercitationem quod nemo unde, explicabo ut minus tempore sed facere labore officia et sint rerum odio repudiandae, quis voluptatum eligendi quia, assumenda iste facilis nesciunt. In, dolores! Veniam nesciunt blanditiis itaque voluptates molestiae voluptatem officiis incidunt adipisci aliquam commodi esse est, maiores numquam nobis sapiente. Nostrum, dicta! Deleniti nostrum praesentium eligendi, dolor unde delectus molestiae vero dolorem temporibus obcaecati id, nisi rem quo vel illo, voluptas blanditiis earum. Animi commodi iste, nostrum eos officia quidem dolorem ex, earum est fugiat ratione soluta accusantium unde sequi nobis? Possimus excepturi voluptates reprehenderit!</p>
-					<a href="#">Mais...</a>
-				</div>
-				<div>
-					<h2>Contato</h2>
-					<form>
-						<fieldset>
-							<legend>Contato</legend>
-							<div>
-								<label for="idEmail">Email</label>
-								<input type="email" name="txtEmail" id="idEmail" placeholder="Digite seu e-mail">
-							</div>
-							<div>
-								<label for="idTel">Telefone</label>
-								<input type="tel" name="txtTel" id="idTel" placeholder="Digite seu Telefone">
-							</div>
-							<div>
-								<button type="button">Enviar</button>
-							</div>
-						</fieldset>
-					</form>
-				</div>
-					
-			</section>
+      <footer class="rodape">
+        <nav class="menu">
+          <ul>
+            <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
+            <li>
+              <a href="https://www.google.com.br" target="_blank">GOOGLE</a>
+            </li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+          </ul>
+        </nav>
 
-			<footer class="rodape">
-
-				<nav class="menu">
-					<ul>
-						<li> <a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
-						<li> <a href="https://www.google.com.br" target="_blank">GOOGLE</a></li>
-						<li> <a href="https://github.com" target="_blank">Github</a></li>
-					</ul>
-				</nav>
-
-				<p>Todos os direitos reservados &copy; 2024 - Minha Página</p>
-
-			</footer>
-
-
-		</div>
-
-	</body>
+        <p>Todos os direitos reservados &copy; 2024 - Minha Página</p>
+      </footer>
+    </div>
+  </body>
 </html>
