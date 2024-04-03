@@ -10,27 +10,22 @@
     <!-- A viewport faz parte da responsividade da página. -->
     <meta name="viewport" content="width:device-width, initial-scale=1.0" />
     <title>Página Básica</title>
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
   </head>
   <!-- segundo filho do html. body -->
   <body>
     <div class="container">
       <header class="cabecalho">
-        <h1 style="text-align: center; border: solid 2px #ff0000">
+        <h1>
           Minha Página
         </h1>
-        <nav class="menu">
+        <nav id="menu">
           <ul>
-            <li>
-              <a href="./paginas/ajuda.html">
-                <img
-                  src="./img/question.png"
-                  alt="Interrogação em um circulo."
-                  width="5%"
-                />
-              </a>
-            </li>
-            <li><a href="./paginas/sobre.html"> Sobre </a></li>
-            <li><a href="#contato"> Contato </a></li>
+            <li class="link"><a href="./paginas/ajuda.html"><img src="./img/question.png" alt="Interrogação em um circulo." width="5%"/>   </a></li>
+            <li class="link"><a href="./paginas/sobre.html"> <img src="./img/about.png" alt="Letra i" width="5%"/> </a></li>
+            <li class="link"><a href="#contato"> <img src="./img/contact.png" alt="Lapis com caderno" width="5%"/> </a></li>
           </ul>
         </nav>
       </header>
