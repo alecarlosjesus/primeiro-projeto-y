@@ -1,0 +1,36 @@
+
+
+/*Este é um comentário de linha em CSS*/
+/*
+    Este 
+    é um 
+    comentário 
+    de bloco 
+    em CSS
+*/
+
+/*Quem pode ser um seletor em CSS3?*/
+/*
+    Seletores de Tipo:
+    - todas as tags incluindo o html, excluindo o head e seus filhos...
+    Ex:
+*/
+
+h1{
+    color: #0000ff;
+    text-align: center;
+
+}
+
+#menu ul{
+    text-align: center;
+}
+
+.link{
+   display: inline;
+   margin: 0 5%;
+}
+
+.link a{
+    text-decoration: none;
+ }
